@@ -77686,13 +77686,13 @@
       }
     },
     "7567196c-d48f-33e5-9f4f-0a7e132e169d": {
-      "content": "$$ ${1} $$ ${0}",
+      "content": "\\( ${1} \\) ${0}",
       "doc": "",
       "filetype": "tex",
       "grammar": "snu",
       "label": "$ expression $",
       "matches": {
-        "$": true,
+        "mk": true,
         "mathexpression": true
       }
     },
@@ -99764,13 +99764,13 @@
       }
     },
     "96895ba9-a433-329c-8791-d721fb408265": {
-      "content": "$$ ${1} $$ ${0}}",
+      "content": "\\[\n${1}\n\\]\n${0}",
       "doc": "",
       "filetype": "tex",
       "grammar": "snu",
       "label": "$$ expression $$",
       "matches": {
-        "$$": true,
+        "dm": true,
         "mathenva": true
       }
     },
@@ -129817,7 +129817,7 @@
       }
     },
     "c4869d85-2964-314a-8a05-f60f60fe95cd": {
-      "content": "\\[ ${1} \\]${0}",
+      "content": "\\[\n${1}\n\\]\n${0}",
       "doc": "",
       "filetype": "tex",
       "grammar": "snu",
