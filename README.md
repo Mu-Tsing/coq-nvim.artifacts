@@ -2,6 +2,11 @@
 
 Used by [`coq.nvim`](https://github.com/ms-jpq/coq_nvim)
 
+-----
+
+# A bug (maybe) report and fix about the '$', '$$' sinppets in VimTex, macOS arm M1.
+Date: 20250307
+
 I revise the requirement in coq_nvim plugin, as I found maybe it's a bug about some snippets in LaTex under the VimTex environment.
 
 I found the inline math and unlabeled math snippets can't has correct jump label. 
